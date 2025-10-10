@@ -1,9 +1,3 @@
-AI Documentation of HW02 (Stat 159)
-
-Tool used:
-ChatGPT (OpenAI GPT-5 model)
-
-Purpose of use:
 ChatGPT was used to clarify hw2 instructions, provide Jupyter and Bash advice, and prepare Binder link.
 Below are specific prompts and summarized responses.
 
@@ -14,14 +8,12 @@ I asked:
 "Summarize the assignment for me"
 
 ChatGPT Response:
-Provided a clear overview of the HW02 workflow. It explained that the assignment involved building a GitHub repository replicating the LIGO analysis, structured into stages:
+The assignment involved building a GitHub repository replicating the LIGO analysis, structured into stages:
 	1.	repo-basic: add required LIGO data files and the LOSC_Event_tutorial.ipynb notebook, then tag.
 	2.	ligotools-pkg: move readligo.py into a ligotools/ package and update imports.
 	3.	conda-env: create a working environment.yml that reproduces the Binder environment and register the kernel.
 	4.	binder: add a Binder badge that launches the notebook in JupyterLab.
 	5.	github-repo: ensure clean commits, tags, and add ai_documentation.txt.
-
-The summary served as a roadmap for completing the assignment step by step.
 
 
 2: Setting up the Conda environment
@@ -37,7 +29,7 @@ It provided two simple methods:
 	2.	Using Terminal:
 	•	Run:nano environment.yml, paste the environment configuration, then save and exit.
 
-It clarified that the file must list Python 2.7 and the same dependency versions used in the Binder environment, ensuring reproducibility.
+It clarified that the file must list Python 2.7 and the same dependency versions used in the Binder environment.
 
 
 3: Preparing Binder link and badge
