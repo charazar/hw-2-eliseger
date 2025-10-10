@@ -1,1 +1,54 @@
-Used ChatGPT to clarify hw2 instructions, fix import paths, and prepare Binder link. All codes and texts verified manually.
+AI Documentation of HW02 (Stat 159)
+
+Tool used:
+ChatGPT (OpenAI GPT-5 model)
+
+Purpose of use:
+ChatGPT was used to clarify hw2 instructions, provide Jupyter and Bash advice, and prepare Binder link.
+Below are specific prompts and summarized responses.
+
+
+1: Clarifying Homework Instructions
+---------------------------------------------------------
+I asked:
+"Summarize the assignment for me"
+
+ChatGPT Response:
+Provided a clear overview of the HW02 workflow. It explained that the assignment involved building a GitHub repository replicating the LIGO analysis, structured into stages:
+	1.	repo-basic: add required LIGO data files and the LOSC_Event_tutorial.ipynb notebook, then tag.
+	2.	ligotools-pkg: move readligo.py into a ligotools/ package and update imports.
+	3.	conda-env: create a working environment.yml that reproduces the Binder environment and register the kernel.
+	4.	binder: add a Binder badge that launches the notebook in JupyterLab.
+	5.	github-repo: ensure clean commits, tags, and add ai_documentation.txt.
+
+The summary served as a roadmap for completing the assignment step by step.
+
+
+2: Setting up the Conda environment
+-------------------------------------------
+I asked:
+"Where should I create the environment.yml?"
+
+ChatGPT Response:
+The environment.yml file should be created in the root directory of the repository (the same level as ligotools/, LOSC_Event_tutorial.ipynb, and README.md).
+It provided two simple methods:
+	1.	Using JupyterLab:
+	•	Click “Text File” under Other → paste the YAML content → save it as environment.yml in the main repo folder.
+	2.	Using Terminal:
+	•	Run:nano environment.yml, paste the environment configuration, then save and exit.
+
+It clarified that the file must list Python 2.7 and the same dependency versions used in the Binder environment, ensuring reproducibility.
+
+
+3: Preparing Binder link and badge
+-------------------------------------------
+I asked:
+"How do I create the binder link given the link to my repo is https://github.com/UCB-stat-159-f25/hw-2-eliseger.git?"
+
+ChatGPT Response:
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UCB-stat-159-f25/hw-2-eliseger/main?labpath=LOSC_Event_tutorial.ipynb)
+
+
+
+Verification:
+All AI-generated explanations were reviewed, and all code and configurations were verified and tested manually before submission.
