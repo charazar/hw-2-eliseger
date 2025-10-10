@@ -6,3 +6,5 @@ _This repository is public so that Binder can find it. All code and data is base
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UCB-stat-159-f25/hw-2-eliseger/main?labpath=hw02-ligo0.000000LOSC_Event_tutorial.ipynb)
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UCB-stat-159-f25/hw-2-eliseger/main?labpath=hw-2-eliseger0.000000LOSC_Event_tutorial.ipynb)
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UCB-stat-159-f25/hw-2-eliseger/main?labpath=LOSC_Event_tutorial.ipynb)
