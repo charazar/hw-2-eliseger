@@ -1,0 +1,1 @@
+Making the test PR because the issues with the scipy error are extensive and fixing them would involve doing all of HW2 again. Hope that's ok!
